@@ -1,0 +1,173 @@
+/* -- Body Format-- */
+
+body {
+    margin: 0;
+}
+
+/*-- Mobile First header format -- */
+header {
+    background-color: skyblue;
+    padding: 15px;
+    text-align: center;
+}
+
+.header h1 {
+    font-family: cursive;
+    color: white;
+    margin: 0;
+}
+
+
+/* --  Navigation -- */
+
+header nav {
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul {
+    display: flex;
+    padding-bottom: 0;
+}
+
+header nav ul li {
+    list-style-type: none;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0 15px;
+    font-family: 'Times New Roman';
+}
+
+header nav ul li a:hover {
+    color: lightgrey;
+}
+
+img {
+    padding: 20px;
+    width: 500px;
+    }
+
+p,
+h1,
+h2,
+h3 {
+    font-family: 'Times New Roman';
+    margin: 20px;
+}
+
+.projects-1 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+}
+
+.projects-2 {
+    flex: 1;
+    margin: 10px;
+}
+
+.contact-master {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    background: skyblue;
+    padding: 20px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+form label input {
+    display: flex;
+    margin: 10px;
+    font-family: 'Times New Roman';
+    width: 50%;
+
+}
+
+form label {
+    display: block;
+    font-family: 'Times New Roman';
+    margin: 10px;
+}
+
+form label textarea {
+    display: block;
+    width: 50%;
+    margin: 10px;
+    font-family: 'Times New Roman';
+}
+
+form button {
+    width: 10%;
+    font-family: 'Times New Roman';
+    margin: 10px;
+    border-radius: 5px;
+}
+
+
+@media all and (min-width: 800px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    header nav {
+        margin-top: 5px;
+    }
+
+    img {
+        padding: 20px;
+        width: 540px;
+    }
+
+
+
+    section.white-background {
+        background-color: white;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        margin: 80px;
+    }
+
+    h1 {
+        font-size: 28px;
+        font-family: sans-serif;
+        font-weight: 700;
+    }
+
+    h2 {
+        font-size: 26px;
+        font-family: sans-serif;
+        font-weight: 500;
+        margin: 10px;
+    }
+
+    h3 {
+        font-size: 18px;
+        font-family: sans-serif;
+        font-weight: 500;
+    }
+
+    p {
+        font-family: sans-serif;
+        line-height: 1.5em;
+        margin: 10px;
+        margin-bottom: 0;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+
+
+}
